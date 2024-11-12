@@ -1,0 +1,8 @@
+﻿  Data.cpp
+  InputForm.cpp
+  Main.cpp
+  MainWindow.cpp
+C:\Users\white\OneDrive\Рабочий стол\Universe\Polytech\Prepod\ttp\Form_OOP_NoDB\Form_OOP_NoDB\Main.cpp(15,6): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
+  Создание кода...
+  Data.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  Form_OOP_NoDB.vcxproj -> C:\Users\white\OneDrive\Рабочий стол\Universe\Polytech\Prepod\ttp\Form_OOP_NoDB\x64\Debug\Form_OOP_NoDB.exe

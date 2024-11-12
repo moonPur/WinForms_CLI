@@ -1,0 +1,4 @@
+C:\Users\white\OneDrive\Рабочий стол\Universe\Polytech\Prepod\ttp\Form_OOP_NoDB\Form_OOP_NoDB\x64\Debug\Form_OOP_NoDB.vcxproj.AssemblyReference.cache
+C:\Users\white\OneDrive\Рабочий стол\Universe\Polytech\Prepod\ttp\Form_OOP_NoDB\Form_OOP_NoDB\x64\Debug\FormOOPNoDB.InputForm.resources
+C:\Users\white\OneDrive\Рабочий стол\Universe\Polytech\Prepod\ttp\Form_OOP_NoDB\Form_OOP_NoDB\x64\Debug\FormOOPNoDB.MainWindow.resources
+C:\Users\white\OneDrive\Рабочий стол\Universe\Polytech\Prepod\ttp\Form_OOP_NoDB\Form_OOP_NoDB\x64\Debug\Form_OOP_NoDB.vcxproj.GenerateResource.cache

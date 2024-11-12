@@ -1,0 +1,63 @@
+  FormOOPNoDB.InputForm.resources - Embedded, ContainedInManifestFile, 
+  FormOOPNoDB.MainWindow.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Form_OOP_NoDB, Version=0.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Struct Initials: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    System.String surname : Public
+    System.String name : Public
+    System.String patrinymic : Public
+Struct Date: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 day : Public
+    Int32 month : Public
+    Int32 year : Public
+Struct Address: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    System.String street : Public
+    Int32 home : Public
+Class Data_: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Initials, Date, Address): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    System.String FIO 'get set' : 
+    System.String getDate 'get set' : 
+    System.String Adress 'get set' : 
+  Methods:
+    get_Adress(): PrivateScope, Public, HideBySig, SpecialName
+    set_Adress(String): PrivateScope, Public, HideBySig, SpecialName
+    get_getDate(): PrivateScope, Public, HideBySig, SpecialName
+    set_getDate(String): PrivateScope, Public, HideBySig, SpecialName
+    get_FIO(): PrivateScope, Public, HideBySig, SpecialName
+    set_FIO(String): PrivateScope, Public, HideBySig, SpecialName
+    DataEntry(Initials, Date, Address): PrivateScope, Public, HideBySig
+    GetInitials(): PrivateScope, Public, HideBySig
+    GetDate(): PrivateScope, Public, HideBySig
+    GetAddress(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class FormOOPNoDB.MainWindow: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class FormOOPNoDB.InputForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(FormOOPNoDB.MainWindow, System.Collections.Generic.List`1[Data_]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(FormOOPNoDB.MainWindow, System.Collections.Generic.List`1[Data_], Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(FormOOPNoDB.MainWindow, System.Collections.Generic.List`1[Data_], Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
